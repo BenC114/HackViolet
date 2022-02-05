@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
+    <!-- Web Page Header -->
     <header>
         <h1>Enter Assignments:</h1>
         <form id="new-assignment-form">
@@ -36,12 +37,31 @@
             value="Add Assignment" >
         </form>
     </header>
+    <!-- End of Web Page Header -->
 
+    <!-- Web Page Body/Main -->
     <main>
-
         <section class="assignment-list"></section>
             <h1>Your Assignments:</h1>
-            <div id="tasks"></div>
+            <div id="Assignments">
+                <div class="Assignment">
+                    <div class="content">
+                        <input 
+                            type="text"
+                            class="text"
+                            value="my assignment"
+                            readonly
+                        >
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
     </main>
+    <!-- End of Web Page Body/Main -->
+
+    <script src="main.js"></script>
 </body>
 </html>
