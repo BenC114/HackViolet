@@ -10,6 +10,14 @@ button {
     padding: 5px;
 }
 
-body{
-    font-family: "Courier New", Times, serif;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 25px;
+    font-size: 15px
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
