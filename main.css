@@ -1,3 +1,20 @@
+<<<<<<< HEAD
 #class-name {
     color: red
+=======
+input {
+    border: 2px solid #A9A9A9;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button {
+    border: 2px solid #A9A9A9;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+body{
+    font-family: "Courier New", Times, serif;
+>>>>>>> a86da33f3ad8f98af707dd1a277a356ded9295f9
 }
