@@ -4,6 +4,10 @@ input {
     padding: 5px;
 }
 
+header {
+    color: white;
+}
+
 button {
     border: 2px solid #A9A9A9;
     border-radius: 8px;
@@ -15,6 +19,11 @@ body {
     color: black;
     padding: 25px;
     font-size: 15px;
+    color: white;
+    background-color: #570c03;
+    border: 3px solid orange;
+    background-color: #570c03;
+    border-radius: 8px;
 }
 
 .dark-mode {
