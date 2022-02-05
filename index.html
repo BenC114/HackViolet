@@ -14,27 +14,35 @@
         <h1>Enter Assignments:</h1>
         <form id="new-assignment-form">
             <!-- Class name input box -->
-            <input type="text"
-            id="class-name"
-            new-assignment-form"
-            placeholder="Class Name">
-
+            <input 
+                type="text"
+                name="new-class-name-input"
+                id="new-class-name-input"
+                placeholder="Class Name"
+            >
             <!-- Assignment name input box -->
-            <input type="text"
-            id="assignment-name"
-            new-assignment-form"
-            placeholder="Assignment Name">
-
+            <input 
+                type="text"
+                name="new-assignment-name-input"
+                id="new-assignment-name-input"
+                placeholder="Assignment Name"
+            >
             <!-- Due date input box -->
-            <input type="date"
-            id="date"
-            new-assignment-form"
-            placeholder="Due Date">
+            <input 
+                type="date"
+                name="new-date-input"
+                id="new-date-input"
+                placeholder="Due Date"
+            >
+            <div>
+                <!-- Submit information -->
+                <input 
+                    type="submit" 
+                    id="new-assignment-submit" 
+                    value="Submit"
+                >
+            </div>
         </form>
-        <div>
-            <!-- Submit information -->
-            <button class="submit" id="submit">Submit</button>
-        </div>
     </header>
     <!-- End of Web Page Header -->
 
@@ -43,6 +51,7 @@
         <section class="assignment-list"></section>
             <h1>Your Assignments:</h1>
             <div id="assignments">
+                
                 <div class="assignment">
                     <div class="content">
                     </div>
