@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Our Assignment Tracker</title>
+    <title>Assignment Tracker</title>
 
     <link rel="stylesheet" href="main.css"/>
 </head>
@@ -15,25 +15,25 @@
         <form id="new-assignment-form">
             <!-- Class name input box -->
             <input type="text"
-            id="new"
+            id="class-name"
             new-assignment-form"
             placeholder="Class Name">
 
             <!-- Assignment name input box -->
             <input type="text"
-            id="new"
+            id="assignment-name"
             new-assignment-form"
             placeholder="Assignment Name">
 
             <!-- Due date input box -->
             <input type="date"
-            id="new"
+            id="date"
             new-assignment-form"
             placeholder="Due Date">
 
             <!-- Submit information -->
             <input type="submit"
-            id="new-assignment-form"
+            id="new-assignment-input"
             value="Add Assignment" >
         </form>
     </header>
@@ -43,15 +43,9 @@
     <main>
         <section class="assignment-list"></section>
             <h1>Your Assignments:</h1>
-            <div id="Assignments">
-                <div class="Assignment">
+            <div id="assignments">
+                <div class="assignment">
                     <div class="content">
-                        <input 
-                            type="text"
-                            class="text"
-                            value="my assignment"
-                            readonly
-                        >
                     </div>
                     <div class="actions">
                         <button class="edit">Edit</button>
