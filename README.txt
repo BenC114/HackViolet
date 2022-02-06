@@ -4,7 +4,7 @@ on YouTube.
 
 This project was made for HackViolet's 2022 hackathon.
 
-Authors: Adrian Shirazi, Ben Culverhouse, and Levi 
+Authors: Adrian Shirazi, Ben Culverhouse, and Levi Engel
 
 Javascript, HTML, and CSS tutorial used:
 https://www.youtube.com/watch?v=MkESyVB4oUw
