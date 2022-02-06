@@ -11,37 +11,16 @@
 <body>
     <!-- Web Page Header -->
     <header>
-        <h1>Enter Assignments:</h1>
-        <form id="new-assignment-form">
+        <h1>Enter Assignment:</h1>
+        <form id="new-assignment-form" action="main.js">
             <!-- Class name input box -->
-            <input 
-                type="text"
-                name="new-class-name-input"
-                id="new-class-name-input"
-                placeholder="Class Name"
-            >
+            <input type="text" id="class-name" name="class-name" placeholder="Class Name">
             <!-- Assignment name input box -->
-            <input 
-                type="text"
-                name="new-assignment-name-input"
-                id="new-assignment-name-input"
-                placeholder="Assignment Name"
-            >
+            <input type="text" id="assignment-name" name="assignment-name" placeholder="Assignment Name">
             <!-- Due date input box -->
-            <input 
-                type="date"
-                name="new-date-input"
-                id="new-date-input"
-                placeholder="Due Date"
-            >
-            <div>
-                <!-- Submit information -->
-                <input 
-                    type="submit" 
-                    id="new-assignment-submit" 
-                    value="Submit"
-                >
-            </div>
+            <input type="date" id="date" name="date" placeholder="Due Date">
+            <!-- Submit information -->
+            <input type="submit" id="new-assignment-submit" value="Submit" >
         </form>
     </header>
     <!-- End of Web Page Header -->
@@ -52,14 +31,15 @@
             <h1>Your Assignments:</h1>
             <div id="assignments">
                 
-                <div class="assignment">
+                <!-- <div class="assignment">
                     <div class="content">
+                        <p><span id="display"></span></p>
                     </div>
                     <div class="actions">
                         <button class="edit" id="edit">Edit</button>
                         <button class="delete" id="delete">Delete</button>
                     </div>
-                </div>
+                </div> -->
             </div>
     </main>
     <!-- End of Web Page Body/Main -->
